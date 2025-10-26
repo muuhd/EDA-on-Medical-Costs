@@ -4,8 +4,6 @@
 This project explores factors that influence the medical costs of beneficiaries. We aim to identify relationships and trends between beneficiary characteristics, such as age, BMI and smoking status, with their medical cost.
 
 ## **Dataset Information**
-Source: Artificial dataset meant for practice use only
-
 Rows: 1340
 
 Columns: PersonID, age, sex, bmi, children, smoker, region, charges
@@ -47,4 +45,13 @@ Insights:
 
 "Charges" is the most important predictor, making it the root node. Comparing the features, “bmi” occurs the most frequently as a basis as compared to “age” which makes it a more significant feature in prediction. In the leaf nodes, the gini value is relatively low, signalling more confident predictions. We also see an overwhelming difference between the classes within the node which highlights the confidence in assigning the appropriate class. However, we should note that majority of the leaf nodes have the same class: “no smoke”. This could highlight that the dataset used may have a disproportionate amount of non-smokers compared to smokers, potentially skewing the predictions for smokers.
 
+## **Limitations of analysis**
+- Dataset is U.S.-based, may not be applicable globally.
+- Limited features for analysis
+
+
+## **Summary of findings**
+- Positive relationship between Age and Smoking status with Medical charges (Older, smoking beneficiaries tend to incur higher charges)
+- BMI shows mixed effects, where being more unhealthy would not guarantee higher medical charges
+- Class imbalance (non-smokers) may limit Decision Tree predictive accuracy 
 
