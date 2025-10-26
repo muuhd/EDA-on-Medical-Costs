@@ -36,6 +36,7 @@ Large difference (2.5x) of the mean medical charges between non-smokers and smok
 <img width="3000" height="2100" alt="image" src="https://github.com/user-attachments/assets/7be6472e-8767-4e67-ae5b-879b39181077" />
 
 Insights:
+
 Mean medical charges are still higher for older beneficiaries compared to younger ones, as seen in visualisation 1. Interesting observation where at different age ranges, different weight classes hold the highest mean medical charges (more notably Normal BMI for age 50-59). This hints that being more "unhealthy" does not necessarily mean one is charged higher. Likewise, medical charges go beyond BMI and other variables must be considered such as the type of treatment. Hence, we should not rely on BMI alone to estimate the medical costs.
 
 
@@ -43,6 +44,7 @@ Mean medical charges are still higher for older beneficiaries compared to younge
 <img width="3975" height="2004" alt="image" src="https://github.com/user-attachments/assets/d78a9e3b-1a40-49f5-a98f-1b804967a8ac" />
 
 Insights:
+
 "Charges" is the most important predictor, making it the root node. Comparing the features, “bmi” occurs the most frequently as a basis as compared to “age” which makes it a more significant feature in prediction. In the leaf nodes, the gini value is relatively low, signalling more confident predictions. We also see an overwhelming difference between the classes within the node which highlights the confidence in assigning the appropriate class. However, we should note that majority of the leaf nodes have the same class: “no smoke”. This could highlight that the dataset used may have a disproportionate amount of non-smokers compared to smokers, potentially skewing the predictions for smokers.
 
 
