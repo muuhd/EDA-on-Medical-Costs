@@ -7,7 +7,9 @@ This project explores factors that influence the medical costs of beneficiaries.
 Dataset Information
 
 Source: Artificial dataset meant for practice use only
+
 Rows: 1340
+
 Columns: PersonID, age, sex, bmi, children, smoker, region, charges
 
 Data Preparation
