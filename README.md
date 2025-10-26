@@ -14,3 +14,6 @@ Columns: PersonID, age, sex, bmi, children, smoker, region, charges
 
 
 **Data Preparation**
+
+- Remove missing data
+- Standardise gender entries ("M"/"F" to "male"/"female)
