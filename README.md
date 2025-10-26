@@ -6,7 +6,9 @@ This project explores factors that influence the medical costs of beneficiaries.
 ## **Dataset Information**
 
 Source: Artificial dataset meant for practice use only
+
 Rows: 1340
+
 Columns: PersonID, age, sex, bmi, children, smoker, region, charges
 
 ## **Data Preparation**
@@ -16,3 +18,4 @@ Columns: PersonID, age, sex, bmi, children, smoker, region, charges
 - Remove outliers based on medical cost
 
 ## **Visualisations and Insights**
+<img width="1748" height="1358" alt="image" src="https://github.com/user-attachments/assets/751824d1-13f4-4db2-9759-7b50ee9f9330" />
