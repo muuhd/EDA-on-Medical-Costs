@@ -17,3 +17,7 @@ Columns: PersonID, age, sex, bmi, children, smoker, region, charges
 
 - Remove missing data
 - Standardise gender entries ("M"/"F" to "male"/"female)
+- Remove outliers based on medical cost
+
+
+**Visualisations and Insights**
