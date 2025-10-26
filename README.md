@@ -1,11 +1,10 @@
 # EDA-on-Medical-Costs
 
-Project Overview
-
+**Project Overview**
 This project explores factors that influence the medical costs of beneficiaries. We aim to identify relationships and trends between beneficiary characteristics, such as age, BMI and smoking status, with their medical cost.
 
-Dataset Information
 
+**Dataset Information**
 Source: Artificial dataset meant for practice use only
 
 Rows: 1340
